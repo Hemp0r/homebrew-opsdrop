@@ -1,26 +1,26 @@
 class Opsdrop < Formula
   desc "CLI for sharing files and clipboard snippets across devices via OpsDrop"
   homepage "https://github.com/hemp0r/opsdrop"
-  version "1.0.0.1"
+  version "1.0.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/hemp0r/opsdrop/releases/download/v#{version}/opsdrop-darwin-arm64"
-      sha256 "22bda5afa494155adffaba4911c539f5044fa3088f5e988293c77c647f345d9a"
+      sha256 "47ee8ebd47f15b17ddb53f125b845fe09a8e91f5882f8110c4f6a5469d1fca3b"
     else
       url "https://github.com/hemp0r/opsdrop/releases/download/v#{version}/opsdrop-darwin-amd64"
-      sha256 "59c6b21d9bb1b886506b9913d7a6d47182722e691dc985971206f2110c8dfbb4"
+      sha256 "70d24c7e43766a78fd8fffb99635d785f19e11af1fdef23a254e5c238d5a18b1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/hemp0r/opsdrop/releases/download/v#{version}/opsdrop-linux-arm64"
-      sha256 "24879fbc470f5318cf583367a49bf4e2eb8775aaf33ffd72373c4711d04545a1"
+      sha256 "50ccfd56689a0584212d5cdb5c586d8ecaf1e8d572d14c515669d8515034c050"
     else
       url "https://github.com/hemp0r/opsdrop/releases/download/v#{version}/opsdrop-linux-amd64"
-      sha256 "1b466d668f90bc8bf6cf13c4b98197dffbe2d0a8020c9daed769a8f0c0de9344"
+      sha256 "20702421ed6d30d4d5b8db66d0976813b73d60b593be8aab6ab393957d82aaa3"
     end
   end
 
