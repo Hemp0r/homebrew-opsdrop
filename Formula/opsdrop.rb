@@ -5,21 +5,21 @@ class Opsdrop < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/hemp0r/opsdrop/releases/download/v1.0.2/opsdrop-darwin-arm64"
-      sha256 "0c2afe770674a16129bd5567857bb420890d119b4edb599719a8457baa3ce43a"
+      url "https://github.com/hemp0r/opsdrop/releases/download/v1.1.1/opsdrop-darwin-arm64"
+      sha256 "2f3c5afd9c6cfd48af2b3ab47c3b81c4b546c35a2039c0b962ea1997fe701ec6"
     else
-      url "https://github.com/hemp0r/opsdrop/releases/download/v1.0.2/opsdrop-darwin-amd64"
-      sha256 "1853a65ebbb1beed7e16fdecb27a8d7e54740f20aaba81bfefaf8500380fa2a5"
+      url "https://github.com/hemp0r/opsdrop/releases/download/v1.1.1/opsdrop-darwin-amd64"
+      sha256 "a1456fcec591e65ab722de6571b358149b27b5398438c0cb75f7443d1df64585"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/hemp0r/opsdrop/releases/download/v1.0.2/opsdrop-linux-arm64"
-      sha256 "dbebc2a2fe875ab9831a6e0a4dc28b1f1ee2aab9162b146d8107d658614a1fdc"
+      url "https://github.com/hemp0r/opsdrop/releases/download/v1.1.1/opsdrop-linux-arm64"
+      sha256 "c6941da9e3d3b7fd148ce81505cb2afae7d01910879a7af1b15609e03e826c1d"
     else
-      url "https://github.com/hemp0r/opsdrop/releases/download/v1.0.2/opsdrop-linux-amd64"
-      sha256 "040a7d84f980168b98b69fae388ea8a6b0b679a47174a4ae47fc4fd8cbaaec45"
+      url "https://github.com/hemp0r/opsdrop/releases/download/v1.1.1/opsdrop-linux-amd64"
+      sha256 "a424fa8ef59874dab5ca3f1ccc813d3d5bdfd6be534c4e1bd30abec6699b85a4"
     end
   end
 
